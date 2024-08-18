@@ -8,6 +8,16 @@ use Data::Table::Text qw(:all);
 
 yyy(<<END);
 git add *
-git commit -m "aaaa"
 git push
+
+git add  action.yml
+git commit -m "The packaged action"
+git add .github/workflows/test.xml
+git commit -m "An example of using the packaged"
+git add hello.py
+git commit -m "The code executed by the packaged action"
+git add pushToGitHub.pl
+git commit -m "Code to auto upload the files to github"
+git add README.md
+git commit -m "Desctption of this repository"
 END

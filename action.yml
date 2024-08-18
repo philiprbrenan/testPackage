@@ -2,7 +2,7 @@
 
 name: "Hello World Python Action"
 
-description: "A simple action to print Hello, World! using Python"
+description: "A simple packaged action to print Hello, World! using Python"
 
 author: "Philip R Brenan"
 
