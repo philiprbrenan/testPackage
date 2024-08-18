@@ -7,6 +7,9 @@ use v5.34;
 use Data::Table::Text qw(:all);
 
 yyy(<<END);
+git stash push -m "Stash message"
+git pull
+git stash pop
 git add  action.yml
 git commit -m "The packaged action"
 git add .github/workflows/test.xml
@@ -17,5 +20,6 @@ git add pushToGitHub.pl
 git commit  --amend -m "Code to auto upload the files to github"
 git add README.md
 git commit  --amend -m "Description of this repository"
+git pull
 git push
 END
