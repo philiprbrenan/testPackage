@@ -17,4 +17,5 @@ git add pushToGitHub.pl
 git commit -m "Code to auto upload the files to github"
 git add README.md
 git commit -m "Desctption of this repository"
+git push
 END
