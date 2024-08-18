@@ -18,4 +18,4 @@ runs:
     - name: Run hello.py
       shell: bash
       run: |
-        python hello.py
+        python hello.py ${{ inputs.who-to-greet }}
