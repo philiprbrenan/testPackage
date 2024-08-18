@@ -20,3 +20,7 @@ Include the packaged action like this:
       with:
         who-to-greet: "Every-one"
 ```
+To get output:
+```
+Hello Every-one
+```
