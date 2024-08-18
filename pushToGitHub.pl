@@ -7,9 +7,6 @@ use v5.34;
 use Data::Table::Text qw(:all);
 
 yyy(<<END);
-git add *
-git push
-
 git add  action.yml
 git commit -m "The packaged action"
 git add .github/workflows/test.xml
