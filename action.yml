@@ -1,0 +1,19 @@
+# action.yml
+
+name: "Hello World Python Action"
+description: "A simple action to print Hello, World! using Python"
+author: "Philip R Brenan"
+inputs:
+  who-to-greet:
+    description: "Who to greet"
+    required: false
+    default: "World"
+outputs: {}
+runs:
+  using: "composite"
+  steps:
+    - name: Run hello.py
+      shell: bash
+      working-directory: .
+      run: |
+        python hello.py
