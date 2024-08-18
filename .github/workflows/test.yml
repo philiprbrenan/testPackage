@@ -1,6 +1,4 @@
-# .github/workflows/use-hello-world.yml
-
-name: "Use Hello World Action"
+name: Test
 
 on:
   push:
@@ -17,4 +15,4 @@ jobs:
     - name: Say Hello
       uses: philiprbrenan/testPackage@main
       with:
-        who-to-greet: "GitHub"
+        who-to-greet: "BaN"
